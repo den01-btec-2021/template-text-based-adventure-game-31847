@@ -3,4 +3,7 @@ def main():
     player_name = input("What is your name? ")
     print ("Hi " + player_name)
 
-Main()
+    life_counter = 3
+    print (f"You have {life_counter} remaining lives")
+
+main()
